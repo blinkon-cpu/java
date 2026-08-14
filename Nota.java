@@ -4,7 +4,7 @@ import java.util.Locale;
 public class Nota {
     public static void main(String[] args) {
         Scanner entrada = new Scanner(System.in);
-        entrada.useLocale(Locale.US);
+        entrada.useLocale(Locale.US); //para usar notação americana
         System.out.print("Digite a nota do aluno: ");
         float nota = entrada.nextFloat();
 
