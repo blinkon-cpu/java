@@ -1,16 +1,16 @@
 import java.util.Scanner;
 
-public class Main {
+public class Nota {
     public static void main(String[] args) {
-        Scanner leitor = new Scanner(System.in);
+        Scanner entrada = new Scanner(System.in);
 
         System.out.print("Digite a nota do aluno: ");
-        double nota = leitor.nextDouble();
+        float nota = entrada.nextFloat();
 
-        if (!(nota >= 7)) {
+        if ((nota >= 7)) {
             System.out.println("Aluno aprovado");
         }
 
-        leitor.close();
+        entrada.close();
     }
 }
