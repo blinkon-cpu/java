@@ -6,9 +6,10 @@ public class Conceito {
         // Garante que o Scanner aceite ponto como separador decimal (ex: 8.5)
         Locale.setDefault(Locale.US);
         Scanner scanner = new Scanner(System.in);
-
+        float nota = scanner.nextFloat();
+        
         System.out.print("Digite a nota do aluno (0 a 10): ");
-        double nota = scanner.nextDouble();
+        
 
         // Validação e classificação
         if (nota < 0 || nota > 10) {
