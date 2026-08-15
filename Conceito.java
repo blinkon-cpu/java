@@ -1,7 +1,7 @@
 import java.util.Locale;
 import java.util.Scanner;
 
-public class ConceitoAluno {
+public class Conceito {
     public static void main(String[] args) {
         // Garante que o Scanner aceite ponto como separador decimal (ex: 8.5)
         Locale.setDefault(Locale.US);
