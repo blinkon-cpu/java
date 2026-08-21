@@ -1,0 +1,33 @@
+//2º passo: definindo a classe maçã 
+class Macas {
+    // 3º passo: indicando características que cada tipo de maçã tem 
+    String tipo;
+    String cor;
+    String formato;
+    int peso;
+    // 4º passo: definir operações (métodos) que manipulam os atributos
+    float calcCalorias () {
+        float t = 52f / 100f * peso; 
+        return (t);
+    }
+
+    // 5º passo: Definindo o CONSTRUTOR da classe
+
+    Macas(String t, String c, String f, int p) {
+        tipo = t;
+        cor = c;
+        formato = f;
+        peso = p;
+
+    }
+}
+// 1º passo: definindo a classe que tem a função (método) main
+
+public class Fruitset {
+    public static void main(String[] args) {
+        Macas M = new Macas("argentina", "vermelha", "elipsóide", 120)
+        Macas N = new Macas("fuji", "vermelho e amarelo", "elipsóide", 100);
+        
+    }
+}
+
