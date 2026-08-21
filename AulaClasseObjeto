@@ -1,5 +1,5 @@
-//2º passo: definindo a classe maçã 
 class Macas {
+//2º passo: definindo a classe maçã 
     // 3º passo: indicando características que cada tipo de maçã tem 
     String tipo;
     String cor;
